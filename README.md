@@ -68,6 +68,12 @@ npx jest
 npm start
 ```
 
+Note: This requires real UPS API credentials.
+
+> Without credentials you will see an authentication error —
+> this is expected and demonstrates our error handling working correctly.
+> Run npx jest instead to see all 8 tests passing without credentials.
+
 ## Architecture Decisions
 
 ### Why a CarrierService interface?
